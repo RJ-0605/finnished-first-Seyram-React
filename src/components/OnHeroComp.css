@@ -1,0 +1,52 @@
+.OnHeroNavContainer {
+	background-color: whitesmoke;
+	width: 85%;
+	margin: auto;
+	margin-top: -10rem;
+}
+
+.OnHeroNavContainer nav {
+	padding: 0 10em;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0;
+}
+
+.OnHeroNavContainer li:first-child {
+	border-bottom: 2px solid #333;
+}
+
+li {
+	font-size: 110%;
+	font-weight: 700;
+	flex-grow: 1;
+	text-align: center;
+	padding: 0.8em 0;
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.top-button {
+	text-align: right;
+	padding: 3rem 12rem;
+}
+
+.buton {
+	border: none;
+	border-radius: .3rem;
+	padding: .8rem 1.2rem .8rem;
+	background-color: black;
+	color: #fff;
+	font-weight: 700
+}
+
+.buton img {
+	width: 1.5em;
+	margin-right: .3rem;
+	height: auto
+}
